@@ -1,0 +1,114 @@
+﻿.wrapper{
+	min-height: 100%;
+}
+
+.slogan{
+  display: block;
+  position: relative;
+  text-align: center;
+  background: url('img/bg_slogan.jpg') no-repeat;
+  font-weight: 700;
+  font-size: 36px;
+  padding: 20px 0;
+  min-width: 100%;
+  z-index: 100;
+}
+
+
+
+.nav__menu{
+    background-color: whitesmoke;
+    display: flex;
+    padding: 20px 0;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    position: relative;
+    min-width: 100%;
+    box-shadow: 0px 0px 1px 1px rgb(26, 23, 23);
+    z-index: 20;
+}
+
+
+
+.logo a{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.logo__image img:hover{
+    background-color: black;
+}
+
+.logo h1{
+    font-weight: 400;
+    font-size: 25px;
+    margin: 0 10px 0 0;
+    padding: 0 1px;
+}
+
+.nav__menu-links{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+.nav__menu-item,
+.nav__menu-item a{ 
+    color: black;
+    margin: 0 20px;
+}
+
+
+.nav__menu-item a:hover{  
+    color: grey;
+    font-weight: 600;
+    font-size: 24px;
+}
+
+.nav__menu-item a{
+    font-size: 22px;
+    font-weight: 300;
+}
+
+/* .container{
+    display: block;
+    background-color: black;
+    font-size: 24px;
+    opacity: .9;
+    min-height: 100%;
+    padding: 10px;
+} */
+
+footer{
+    border-top: 1px solid white;
+    z-index: 2;
+    font-size: 15px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+.info{
+    background-color: black;
+    min-width: 100%;
+    text-align: left;
+    padding: 10px 60px;
+}
+
+.info__contacts li{
+    padding: 10px;
+}
+
+.info__contacts li:first-child{
+    padding-top: 20px;
+}
+
+.info__contacts li:last-child{
+    text-align: right;
+}
