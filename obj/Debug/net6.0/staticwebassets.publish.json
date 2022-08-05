@@ -1,10 +1,10 @@
 {
   "Version": 1,
-  "Hash": "nMb2ZgAStih4Rm7rqolY0rUjIKsWL1CR4pVnvrM+B4k=",
+  "Hash": "Z4d1PwvYVNxyLbFGJ0LiDNUVLfDuwKbJV9sA79ZlZL4=",
   "Source": "CoderDecoreSite",
   "BasePath": "_content/CoderDecoreSite",
   "Mode": "Default",
-  "ManifestType": "Build",
+  "ManifestType": "Publish",
   "ReferencedProjectsConfiguration": [],
   "DiscoveryPatterns": [
     {
