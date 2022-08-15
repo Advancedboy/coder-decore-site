@@ -20,6 +20,7 @@
   <ItemGroup>
     <Folder Include="Data\" />
     <Folder Include="Models\" />
+    <Folder Include="Views\Contacts\" />
     <Folder Include="wwwroot\css\img\DevelopParallax\" />
     <Folder Include="wwwroot\images\" />
     <Folder Include="wwwroot\js\" />

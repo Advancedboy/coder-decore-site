@@ -20,5 +20,10 @@ namespace CoderDecoreSite.Controllers
         {
             return View();
         }
+
+        public IActionResult About()
+        {
+            return View();
+        }
     }
 }
