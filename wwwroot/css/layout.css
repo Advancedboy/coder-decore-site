@@ -14,7 +14,9 @@
   z-index: 100;
 }
 
-
+a {
+    color: white;
+}
 
 .nav__menu{
     background-color: whitesmoke;
@@ -95,6 +97,7 @@ body._touch .menu__arrow {
     min-height: 100%;
     padding: 10px;
 } */
+
 
 footer{
     border-top: 1px solid white;

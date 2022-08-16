@@ -43,10 +43,6 @@ body{
 	font-family: 'Open Sans', sans-serif;
 }
 
-section {
-	padding: 30px;
-}
-
 .wrapper{
 	min-height: 100%;
 }
@@ -181,6 +177,12 @@ section {
 	font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
 }
 
+#map {
+	width: 100%;
+	/* margin: -30px; */
+	height: 65%;
+	text-align: center;
+}
 
 @media (max-aspect-ratio: 3/2){
 	.images-parallax__human{

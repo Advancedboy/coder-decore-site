@@ -1,0 +1,5 @@
+﻿@media(min-height: 650px) {
+    .content {
+        height: 350vh;
+    }
+}

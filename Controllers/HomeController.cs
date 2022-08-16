@@ -25,5 +25,9 @@ namespace CoderDecoreSite.Controllers
         {
             return View();
         }
+        public IActionResult EducationPrograms()
+        {
+            return View();
+        }
     }
 }

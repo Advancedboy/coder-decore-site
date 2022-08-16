@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "Ulxl6e7RCuRqdp3CdcbsPygBM2y/BesxpW4y068oYK8=",
+  "Hash": "ezIAUQlMAry518iedT0xbdQQVZFSQ1Tdr2SERZj/QrM=",
   "Source": "CoderDecoreSite",
   "BasePath": "_content/CoderDecoreSite",
   "Mode": "Default",
@@ -66,6 +66,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\cd_logo.jpg"
+    },
+    {
+      "Identity": "E:\\Programming\\2022\\C#\\CoderDecoreSite\\CoderDecoreSite\\wwwroot\\css\\About.css",
+      "SourceId": "CoderDecoreSite",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\Programming\\2022\\C#\\CoderDecoreSite\\CoderDecoreSite\\wwwroot\\",
+      "BasePath": "_content/CoderDecoreSite",
+      "RelativePath": "css/About.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\About.css"
     },
     {
       "Identity": "E:\\Programming\\2022\\C#\\CoderDecoreSite\\CoderDecoreSite\\wwwroot\\css\\Adaptiv.css",
@@ -406,6 +423,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\js\\adaptive.js"
+    },
+    {
+      "Identity": "E:\\Programming\\2022\\C#\\CoderDecoreSite\\CoderDecoreSite\\wwwroot\\js\\map.js",
+      "SourceId": "CoderDecoreSite",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\Programming\\2022\\C#\\CoderDecoreSite\\CoderDecoreSite\\wwwroot\\",
+      "BasePath": "_content/CoderDecoreSite",
+      "RelativePath": "js/map.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\map.js"
     },
     {
       "Identity": "E:\\Programming\\2022\\C#\\CoderDecoreSite\\CoderDecoreSite\\wwwroot\\js\\parallax.js",

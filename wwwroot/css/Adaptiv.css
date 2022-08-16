@@ -5,6 +5,10 @@
 		margin: 0px 0 30px 0;
 	}
 
+	.content {
+		height: 250vh;
+	}
+
 	.menu__icon {
 		z-index: 5;
 		display: block;
@@ -14,59 +18,59 @@
 		cursor: pointer;
 	}
 
-	.menu__icon span,
-	.menu__icon::before,
-	.menu__icon::after {
-		left: 0;
-		position: absolute;
-		height: 10%;
-		width: 100%;
-		transition: all .3s ease 0s;
-		background-color: #000;
-	}
+		.menu__icon span,
+		.menu__icon::before,
+		.menu__icon::after {
+			left: 0;
+			position: absolute;
+			height: 10%;
+			width: 100%;
+			transition: all .3s ease 0s;
+			background-color: #000;
+		}
 
-	.menu__icon::before,
-	.menu__icon::after {
-		content: "";
-	}
+		.menu__icon::before,
+		.menu__icon::after {
+			content: "";
+		}
 
-	.menu__icon::before {
-		top: 0;
-	}
+		.menu__icon::before {
+			top: 0;
+		}
 
-	.menu__icon span {
-		margin-right: -100px;
-	}
+		.menu__icon span {
+			margin-right: -100px;
+		}
 
-	.menu__icon::after {
-		bottom: 0;
-	}
+		.menu__icon::after {
+			bottom: 0;
+		}
 
-	.menu__icon span {
-		top: 50%;
-		transform: scale(1) translate(0px, -50%);
-	}
+		.menu__icon span {
+			top: 50%;
+			transform: scale(1) translate(0px, -50%);
+		}
 
-	.menu__icon._active span {
-		transform: scale(0) translate(0px, -50%);
-	}
+		.menu__icon._active span {
+			transform: scale(0) translate(0px, -50%);
+		}
 
-	.menu__icon._active::before {
-		top: 50%;
-		transform: rotate(-45deg) translate(0px, -50%);
-	}
+		.menu__icon._active::before {
+			top: 50%;
+			transform: rotate(-45deg) translate(0px, -50%);
+		}
 
-	.menu__icon._active::after {
-		bottom: 50%;
-		transform: rotate(45deg) translate(0px, 50%);
-	}
+		.menu__icon._active::after {
+			bottom: 50%;
+			transform: rotate(45deg) translate(0px, 50%);
+		}
 
 	.logo img {
 		margin-left: -60px;
 	}
 
 	.parallax__title {
-		font-size: 38px;
+		font-size: 30px;
 	}
 
 	.slogan__text {
@@ -87,8 +91,10 @@
 	}
 
 
-	.text-block h2 {
-		font-size: 28px;
+	.text-block p {
+		font-size: 23px;
+		font-family: 'Montserrat', sans-serif;
+		font-weight: 400;
 	}
 
 	footer {
@@ -130,14 +136,27 @@
 
 }
 
-@media (max-width:1280px) {
-	.nav__menu-item h1 {
-		display: none;
-	}
-}
+	@media (max-width:1280px) {
+		.nav__menu-item h1 {
+			display: none;
+		}
+		.text-block ul, li {
+			font-size: 22px;
+		}
 
-@media (max-width:280px) {
-	.parallax__title {
-		font-size: 30px;
 	}
-}
+
+	@media (max-width:280px) {
+		.parallax__title {
+			font-size: 20px;
+		}
+
+		.text-block ul, li{
+			font-size: 22px;
+		}
+		.content{
+			height: 100vh;
+		}
+	}
+
+

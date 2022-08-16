@@ -35,7 +35,7 @@
             <div class="nav__menu-links">
                 <div class="nav__menu-item">
                     @* Здесь будет представление programs *@
-                    <a asp-action="InDevelopment" asp-controller="Home">Образовательные программы</a>
+                    <a asp-action="EducationPrograms" asp-controller="Home">Образовательные программы</a>
                         @* <span class="menu__arrow"></span> *@
                 </div>
                 <div class="nav__menu-item">
@@ -44,7 +44,7 @@
                 </div>
                 <div class="nav__menu-item">
                     @* Здесь будет представление Contacts *@
-                    <a asp-action="Contacts" asp-controller="Contacts">Контакты</a>
+                    <a asp-action="Contacts" asp-controller="Home">Контакты</a>
                 </div>
             </div>
             <div class="menu__icon">
@@ -64,8 +64,8 @@
                             <li>Москва, пр. Андропова, 1  “Остров Мечты”</li>   
                             <li>Москва, ул. Трофимова, 11</li>   
                             <li>Звоните:</li>    
-                            <li>+79859068824</li>    
-                            <li>+79651733949</li>    
+                            <li><a href="tel:+79859068824">+79859068824</a></li>
+                            <li><a href="tel:+79651733949">+79651733949</a></li>
                             <li>© Coder Decore 2022</li>
                         </ul>
                     </div>

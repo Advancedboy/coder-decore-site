@@ -15,12 +15,16 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = e:\Programming\2022\C#\CoderDecoreSite\CoderDecoreSite
 build_property._RazorSourceGeneratorDebug = 
 
-[e:/Programming/2022/C\#/CoderDecoreSite/CoderDecoreSite/Views/Contacts/Contacts.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29udGFjdHNcQ29udGFjdHMuY3NodG1s
+[e:/Programming/2022/C\#/CoderDecoreSite/CoderDecoreSite/Views/Home/About.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxBYm91dC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [e:/Programming/2022/C\#/CoderDecoreSite/CoderDecoreSite/Views/Home/Contacts.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxDb250YWN0cy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[e:/Programming/2022/C\#/CoderDecoreSite/CoderDecoreSite/Views/Home/EducationPrograms.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxFZHVjYXRpb25Qcm9ncmFtcy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [e:/Programming/2022/C\#/CoderDecoreSite/CoderDecoreSite/Views/Home/InDevelopment.cshtml]

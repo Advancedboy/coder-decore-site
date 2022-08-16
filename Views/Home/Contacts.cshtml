@@ -1,8 +1,10 @@
 ﻿@{
     ViewData["Title"] = "Наши контакты";
 }
-
+<script src="https://api-maps.yandex.ru/2.1/?lang=ru_RU" type="text/javascript"></script>
 <link rel="stylesheet" href="~/css/index.css">
+<link rel="stylesheet" href="~/css/Adaptiv.css" />
+@*<link rel="stylesheet" href="~/css/About.css">*@
 
 <section class="parallax">
 	<div class="parallax__body">
@@ -28,14 +30,16 @@
 		<div class="content__text">
 			<div class="text-block">
 				<h2>Связаться с нами вы можете с помощью: </h2>
-                <ul class="contacts__list">
-                    <li>VK</li>
-                    <li>Telegram</li>
-                    <li>Skype</li>
-                    <li>Mail</li>
-                </ul>
+				<p>Мобильный телефон</p>
+				<ul style="line-height:2">
+					<li><a href="tel:+79859068824">+79859068824</a></li>
+                    <li><a href="tel:+79651733949">+79651733949</a></li>
+				</ul>
 			</div>
 		</div>
 	</div>	
+<!-- Создаём контейнер для карты -->
+<div id="map"></div>
 </section>
 <script src="~/js/parallax.js"></script>
+<script src="~/js/map.js"></script>
