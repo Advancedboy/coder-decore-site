@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "4mWH5MD1KMWRKPpYV5OfaQiZnEJqtoMKpOjiyuctBFE=",
+  "Hash": "UCmqtVJqYIi6QbXpkdUOe5wiZmb/ywwolsuxpHTlStY=",
   "Source": "CoderDecoreSite",
   "BasePath": "_content/CoderDecoreSite",
   "Mode": "Default",
@@ -508,6 +508,40 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\images\\kid.png"
+    },
+    {
+      "Identity": "E:\\Programming\\2022\\C#\\CoderDecoreSite\\CoderDecoreSite\\wwwroot\\images\\mainccode.png",
+      "SourceId": "CoderDecoreSite",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\Programming\\2022\\C#\\CoderDecoreSite\\CoderDecoreSite\\wwwroot\\",
+      "BasePath": "_content/CoderDecoreSite",
+      "RelativePath": "images/mainccode.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\mainccode.png"
+    },
+    {
+      "Identity": "E:\\Programming\\2022\\C#\\CoderDecoreSite\\CoderDecoreSite\\wwwroot\\images\\maincode.png",
+      "SourceId": "CoderDecoreSite",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\Programming\\2022\\C#\\CoderDecoreSite\\CoderDecoreSite\\wwwroot\\",
+      "BasePath": "_content/CoderDecoreSite",
+      "RelativePath": "images/maincode.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\maincode.png"
     },
     {
       "Identity": "E:\\Programming\\2022\\C#\\CoderDecoreSite\\CoderDecoreSite\\wwwroot\\images\\web.png",

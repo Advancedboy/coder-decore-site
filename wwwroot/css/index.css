@@ -38,7 +38,7 @@ body{
 	height: 100%;
 	line-height: 1;
 	font-size: 16px;
-	background-color: #0b1d26;
+	background: linear-gradient(90deg, #00d2ff 0%, #3a47d5 100%);
 	color: #fff;
 	font-family: 'Open Sans', sans-serif;
 }
@@ -48,19 +48,22 @@ body{
 }
 
 .intro {
-	background-color: #9D7FC0;
+	/* background-color: #9D7FC0; */
 	height: 100vh;
 	position: relative;
 	margin: 0 auto;
 }
 
+.intro__title {
+	font-family: 'Arimo', sans-serif;
+}
 .intro__container {
-	max-width: 150vh;
+	/* max-width: 150vh; */
 	text-align: center;
-	background-color: black;
+	/* background-color: cornflowerblue; */
 	display: block;
 	margin: 0 auto;
-	padding: 50px 0;
+	padding: 50px;
 	height: 100%;
 }
 
@@ -82,8 +85,8 @@ body{
 .intro__subtitle {
 	font-size: 30px;
 	font-weight: 300;
-	font-family: 'Jura', sans-serif;
-	font-style: italic;
+	/* font-family: 'Jura', sans-serif; */
+		font-family: 'Noto Sans Display', sans-serif;
 	padding: 10px;
 }
 
@@ -112,6 +115,9 @@ body{
 	font-weight: 300;
 	font-style: italic;
 }
+.intro__navigation:hover li {
+	background-color: black;
+}
 ._container{
 	max-width: 1000px;
 	margin: 0 auto;
@@ -123,23 +129,13 @@ body{
 	/* width: 1000px; */
 }
 .content {
-	background-color: #6923DC;
+	/* background-color: #6923DC; */
 	position: relative;
 	z-index: 2;
 	height: 100vh;
 }
 
-.content::before{
-	pointer-events: none;
-	content: "";
-	position: absolute;
-	top: 0;
-	left: 0;
-	width: 100%;
-	height: 150px;
-	transform: translate(0px, -100%);
-	background: linear-gradient(180deg, rgba(193, 69, 221, .1), #6923DC);
-}
+
 
 
 .content__container{
@@ -172,7 +168,7 @@ body{
 }
 
 .study__programs {
-	background-color: whitesmoke;
+	/* background-color: whitesmoke; */
 }
 
 .study__programs h2 {
@@ -182,13 +178,12 @@ body{
 }
 
 .gamedev__intro {
-	box-shadow: 3px 3px 3px 3px white;
 	padding: 50px 0;
 }
 
 .gamedev__intro h2,
 a {
-	color: #0b1d26;
+	/* color: #0b1d26; */
 }
 
 .gamedev__about {
@@ -200,19 +195,23 @@ a {
 .gamedev__about {
 	display: flex;
 	justify-content: space-around;
-	padding: 30px;
+	padding: 30px 0;
+		margin: 0 30px;
+		background-color: #3a47d5;
+		border-radius: 12px;
+		box-shadow: 10px 10px 10px 10px palevioletred;
 }
 .webdev__about {
 	color: black;
 }
 .modeling__about-info,
 .webdev__about-info,
-..gamedev__about-info {
+.gamedev__about-info {
 	font-size: 30px;
+	margin: 0 auto;
 }
 
 .modeling__about-info {
-	text-align: right;
 }
 
 .webdev__about-info {
@@ -232,14 +231,12 @@ li {
 }
 
 .webdev__intro {
-	background-color: rgb(16, 172, 211);
 	padding: 0 30px;
-	box-shadow: 0px 0px 2px 2px rgb(7, 156, 214);
 }
 
 .modeling__intro,
 .modeling__intro h2 {
-	background: rgb(129, 16, 119);
+	/* background: rgb(129, 16, 119); */
 	color: white;
 }
 
