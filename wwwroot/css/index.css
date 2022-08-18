@@ -46,13 +46,82 @@ body{
 .wrapper{
 	min-height: 100%;
 }
- 
+
+.intro {
+	background-color: #9D7FC0;
+	height: 100vh;
+	position: relative;
+	margin: 0 auto;
+}
+
+.intro__container {
+	max-width: 150vh;
+	text-align: center;
+	background-color: black;
+	display: block;
+	margin: 0 auto;
+	padding: 50px 0;
+	height: 100%;
+}
+
+.intro__text {
+	display: flex;
+	/* flex-wrap: wrap; */
+	justify-content: space-between;
+	padding: 0 0px 0 30px;
+	font-size: 45px;
+	font-family: 'Roboto Mono', monospace;
+	text-align: left;
+
+}
+
+.intro__maintext {
+	max-width: 33%;
+}
+
+.intro__subtitle {
+	font-size: 30px;
+	font-weight: 300;
+	font-family: 'Jura', sans-serif;
+	font-style: italic;
+	padding: 10px;
+}
+
+.intro__image img {}
+
+.locked {
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	user-select: none;
+	pointer-events: none;
+}
+
+.intro__navigation-title {
+	padding: 70px 0;
+	font-size: 25px;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 500;
+}
+
+.intro__navigation {
+	padding: 40px 0 30px 0;
+	display: flex;
+	justify-content: space-around;
+	font-size: 20px;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 300;
+	font-style: italic;
+}
 ._container{
 	max-width: 1000px;
 	margin: 0 auto;
 	padding: 50px 20px;
 }
 
+.gamedev__img,
+.web__img {
+	/* width: 1000px; */
+}
 .content {
 	background-color: #6923DC;
 	position: relative;
@@ -72,33 +141,10 @@ body{
 	background: linear-gradient(180deg, rgba(193, 69, 221, .1), #6923DC);
 }
 
-.parallax {
-	min-height: 100vh;
-	z-index: 0;
-}
 
-.parallax__body {
-	position: fixed;
-	width: 100%;
-	height: 100%;
-	top: 0;
-	left: 0;
-}
 .content__container{
 }
-.parallax__container {
-	text-transform: uppercase;
-	position: relative;
-	z-index: 2;
-}
-.parallax__images {
-	position: absolute;
-	width: 120%;
-	height: 120%;
-	top: -10%;
-	left: -10%;
-	z-index: 1;
-}
+
 .content__title {
 	font-size: 55px;
 	font-weight: 700;
@@ -119,64 +165,87 @@ body{
 	font-style: italic;
 }
 
-.parallax__label {
-	color: #fbd784;
-	display: flex;
-	font-size: 18px;
-	letter-spacing: 6px;
-	margin: 0px 0px 30px 0px;
-	align-items: center;
-}
-
-
-
-.parallax__title {
-	margin: 20vh auto;
-	font-size: 88px;
-	color: white;
-	text-shadow: 2px 2px 2px #000;
-	font-family: 'Montserrat', sans-serif;
-	font-weight: 800;
-}
-.images-parallax__item {
-	position: absolute;
-	width: 100%;
-	height: 100%;
-	top: 0;
-	left: 0;
-}
-.images-parallax__clouds,
-.images-parallax__mountains,
-.images-parallax__human {
-	position: absolute;
-	width: 100%;
-	height: 100%;
-	left: 0;
-}
-
-.images-parallax__clouds{
-	background: url('img/Parallax/3.png') top / cover no-repeat;
-	top: 0;
-}
-
-.images-parallax__mountains{
-	background: url('img/Parallax/2.png') top / cover no-repeat;
-	top: 15%;
-	z-index: 2;
-}
-
-.images-parallax__human{
-	background: url('img/Parallax/1.png') top / cover no-repeat;
-	top: 45%;
-	z-index: 3;
-}
-
-.text-block{
+.text-block {
 	font-size: 35px;
 	text-align: left;
 	font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
 }
 
+.study__programs {
+	background-color: whitesmoke;
+}
+
+.study__programs h2 {
+	font-size: 45px;
+	font-weight: 500;
+	color: black;
+}
+
+.gamedev__intro {
+	box-shadow: 3px 3px 3px 3px white;
+	padding: 50px 0;
+}
+
+.gamedev__intro h2,
+a {
+	color: #0b1d26;
+}
+
+.gamedev__about {
+	color: black;
+}
+
+.webdev__about,
+.modeling__about,
+.gamedev__about {
+	display: flex;
+	justify-content: space-around;
+	padding: 30px;
+}
+.webdev__about {
+	color: black;
+}
+.modeling__about-info,
+.webdev__about-info,
+..gamedev__about-info {
+	font-size: 30px;
+}
+
+.modeling__about-info {
+	text-align: right;
+}
+
+.webdev__about-info {
+	text-align: left;
+}
+
+.modeling__about-info ul,
+li,
+.webdev__about-info ul,
+li {
+	text-align: center;
+}
+
+.gamedev__intro-title {
+	text-align: center;
+	margin: 0 auto;
+}
+
+.webdev__intro {
+	background-color: rgb(16, 172, 211);
+	padding: 0 30px;
+	box-shadow: 0px 0px 2px 2px rgb(7, 156, 214);
+}
+
+.modeling__intro,
+.modeling__intro h2 {
+	background: rgb(129, 16, 119);
+	color: white;
+}
+
+.webdev__intro {
+	color: rgb(1, 2, 3);
+}
 #map {
 	width: 100%;
 	/* margin: -30px; */
@@ -184,19 +253,8 @@ body{
 	text-align: center;
 }
 
-@media (max-aspect-ratio: 3/2){
-	.images-parallax__human{
-		background-position: 20% top;
-	}
+@media (max-aspect-ratio: 3/2) {
 }
 
-@media(max-width: 767px){
-	.parallax__title{
-		font-size: 50px;
-	}
-
-	.parallax__label::before{
-		flex: 0 0 50px;
-		margin: 0 10px 0 0;
-	}
+@media(max-width: 767px) {
 }

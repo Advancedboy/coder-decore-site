@@ -14,9 +14,14 @@
   z-index: 100;
 }
 
+.content {
+    position: relative;
+    min-width: 100vw;
+}
 a {
     color: white;
 }
+
 
 .nav__menu{
     background-color: whitesmoke;

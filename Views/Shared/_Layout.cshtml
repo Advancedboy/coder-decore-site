@@ -7,7 +7,7 @@
     <head>
         <meta charset="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <title>@ViewData["Title"] - WorkingWithVisualStudio</title>
+        <title>@ViewData["Title"]</title>
         <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
         <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
         <link rel="stylesheet" href="~/WorkingWithVisualStudio.styles.css" asp-append-version="true" />
@@ -18,32 +18,28 @@
         <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
     </head>
     <body>
-        <header>
         <div class="wrapper">
+        <header>
             <div class="slogan">
                 <h1 class="slogan__text">Кодируй декорируя!</h1>
             </div>
 
             <nav class="nav__menu">
-            <div class="nav__menu-item logo">
-
+                <div class="nav__menu-item logo">
                     <a asp-action="Index" asp-controller="Home" >
                         <h1>Coder Decore</h1>
                         <img class="logo__image" src="~/small_logo.png"/>
                     </a>
-            </div>
+                </div>
             <div class="nav__menu-links">
                 <div class="nav__menu-item">
-                    @* Здесь будет представление programs *@
                     <a asp-action="EducationPrograms" asp-controller="Home">Образовательные программы</a>
                         @* <span class="menu__arrow"></span> *@
                 </div>
                 <div class="nav__menu-item">
-                    @* Здесь будет предстваление About *@
                     <a asp-action="About" asp-controller="Home">О нас</a>
                 </div>
                 <div class="nav__menu-item">
-                    @* Здесь будет представление Contacts *@
                     <a asp-action="Contacts" asp-controller="Home">Контакты</a>
                 </div>
             </div>
@@ -51,12 +47,9 @@
                 <span></span>
             </div>
             </nav>
-            </div>
             </header>
-                <main role="main">
                 @RenderBody()
-                </main>
-
+            </div>
                 <footer>
                     <div class="info">
                         <ul class="info__contacts">
@@ -70,6 +63,7 @@
                         </ul>
                     </div>
                 </footer>
+                </div>
         <script src="~/lib/jquery/dist/jquery.min.js"></script>
         <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
         <script src="~/js/site.js" asp-append-version="true"></script>
