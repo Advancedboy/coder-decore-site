@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "E:\\Programming\\2022\\C#\\CoderDecoreSite\\CoderDecoreSite\\CoderDecoreSite.csproj": {}
+    "D:\\IT\\coder-decore-site\\CoderDecoreSite.csproj": {}
   },
   "projects": {
-    "E:\\Programming\\2022\\C#\\CoderDecoreSite\\CoderDecoreSite\\CoderDecoreSite.csproj": {
+    "D:\\IT\\coder-decore-site\\CoderDecoreSite.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\Programming\\2022\\C#\\CoderDecoreSite\\CoderDecoreSite\\CoderDecoreSite.csproj",
+        "projectUniqueName": "D:\\IT\\coder-decore-site\\CoderDecoreSite.csproj",
         "projectName": "CoderDecoreSite",
-        "projectPath": "E:\\Programming\\2022\\C#\\CoderDecoreSite\\CoderDecoreSite\\CoderDecoreSite.csproj",
-        "packagesPath": "C:\\Users\\37533\\.nuget\\packages\\",
-        "outputPath": "E:\\Programming\\2022\\C#\\CoderDecoreSite\\CoderDecoreSite\\obj\\",
+        "projectPath": "D:\\IT\\coder-decore-site\\CoderDecoreSite.csproj",
+        "packagesPath": "C:\\Users\\AsuSь P8H67-M PRO\\.nuget\\packages\\",
+        "outputPath": "D:\\IT\\coder-decore-site\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\37533\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\AsuSь P8H67-M PRO\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -55,7 +55,8 @@
             "net47",
             "net471",
             "net472",
-            "net48"
+            "net48",
+            "net481"
           ],
           "assetTargetFallback": true,
           "warn": true,
@@ -67,7 +68,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.300\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.400\\RuntimeIdentifierGraph.json"
         }
       }
     }
