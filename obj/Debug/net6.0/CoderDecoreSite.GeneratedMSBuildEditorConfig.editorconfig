@@ -8,49 +8,49 @@ build_property.PlatformNeutralAssembly =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = CoderDecoreSite
 build_property.RootNamespace = CoderDecoreSite
-build_property.ProjectDir = d:\IT\coder-decore-site\
+build_property.ProjectDir = D:\IT\coder-decore-site\
 build_property.RazorLangVersion = 6.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = d:\IT\coder-decore-site
+build_property.MSBuildProjectDirectory = D:\IT\coder-decore-site
 build_property._RazorSourceGeneratorDebug = 
 
-[d:/IT/coder-decore-site/Views/Home/About.cshtml]
+[D:/IT/coder-decore-site/Views/Home/About.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxBYm91dC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[d:/IT/coder-decore-site/Views/Home/Contacts.cshtml]
+[D:/IT/coder-decore-site/Views/Home/Contacts.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxDb250YWN0cy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[d:/IT/coder-decore-site/Views/Home/EducationPrograms.cshtml]
+[D:/IT/coder-decore-site/Views/Home/EducationPrograms.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxFZHVjYXRpb25Qcm9ncmFtcy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[d:/IT/coder-decore-site/Views/Home/InDevelopment.cshtml]
+[D:/IT/coder-decore-site/Views/Home/InDevelopment.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbkRldmVsb3BtZW50LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[d:/IT/coder-decore-site/Views/Home/Index.cshtml]
+[D:/IT/coder-decore-site/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[d:/IT/coder-decore-site/Views/Shared/Error.cshtml]
+[D:/IT/coder-decore-site/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[d:/IT/coder-decore-site/Views/Shared/_Layout.cshtml]
+[D:/IT/coder-decore-site/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[d:/IT/coder-decore-site/Views/Shared/_ValidationScriptsPartial.cshtml]
+[D:/IT/coder-decore-site/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[d:/IT/coder-decore-site/Views/_ViewImports.cshtml]
+[D:/IT/coder-decore-site/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[d:/IT/coder-decore-site/Views/_ViewStart.cshtml]
+[D:/IT/coder-decore-site/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
