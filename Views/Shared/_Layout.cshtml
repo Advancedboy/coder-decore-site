@@ -10,7 +10,6 @@
         <title>@ViewData["Title"]</title>
         <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
         <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
-        <link rel="stylesheet" href="~/WorkingWithVisualStudio.styles.css" asp-append-version="true" />
         <link rel="stylesheet" href="~/css/layout.css"/> 
         <link rel="stylesheet" href="~/css/Adaptiv.css" />
         <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -20,6 +19,19 @@
     <body>
         <div class="wrapper">
         <header>
+            <div class="header__scroll">
+                <ul class="scroll__menu">
+                    <li class="scroll__menu-item">
+                        <a asp-action="EducationPrograms" asp-controller="Home">Образовательные программы</a>
+                    </li>
+                    <li class="scroll__menu-item">
+                        <a asp-action="About" asp-controller="Home">О нас</a>
+                    </li>
+                    <li class="scroll__menu-item">
+                        <a asp-action="Contacts" asp-controller="Home">Контакты</a>
+                    </li>
+                </ul>
+            </div>
             <div class="slogan">
                 <h1 class="slogan__text">Кодируй декорируя!</h1>
             </div>
@@ -68,6 +80,7 @@
         <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
         <script src="~/js/site.js" asp-append-version="true"></script>
         <script src="~/js/adaptive.js"></script>
+        <script src="~/js/header.js"></script>
         @await RenderSectionAsync("Scripts", required: false)
     </body>
 </html>

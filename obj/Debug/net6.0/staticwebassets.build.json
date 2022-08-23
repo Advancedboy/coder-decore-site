@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "1rmhM+jH5sfrQ1zm/8Ph1UR0WwAcI30iWNvrx6UFklA=",
+  "Hash": "OcSIeWr44cPbNvXaxhiIaX8yiZBM4JfYt0kAA9BxUpY=",
   "Source": "CoderDecoreSite",
   "BasePath": "_content/CoderDecoreSite",
   "Mode": "Default",
@@ -527,12 +527,12 @@
       "OriginalItemSpec": "wwwroot\\images\\mainccode.png"
     },
     {
-      "Identity": "D:\\IT\\coder-decore-site\\wwwroot\\images\\maincode.png",
+      "Identity": "D:\\IT\\coder-decore-site\\wwwroot\\images\\mainccode-mobile.png",
       "SourceId": "CoderDecoreSite",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\IT\\coder-decore-site\\wwwroot\\",
       "BasePath": "_content/CoderDecoreSite",
-      "RelativePath": "images/maincode.png",
+      "RelativePath": "images/mainccode-mobile.png",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -541,7 +541,7 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\images\\maincode.png"
+      "OriginalItemSpec": "wwwroot\\images\\mainccode-mobile.png"
     },
     {
       "Identity": "D:\\IT\\coder-decore-site\\wwwroot\\images\\web.png",
@@ -593,6 +593,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\js\\adaptive.js"
+    },
+    {
+      "Identity": "D:\\IT\\coder-decore-site\\wwwroot\\js\\header.js",
+      "SourceId": "CoderDecoreSite",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\IT\\coder-decore-site\\wwwroot\\",
+      "BasePath": "_content/CoderDecoreSite",
+      "RelativePath": "js/header.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\header.js"
     },
     {
       "Identity": "D:\\IT\\coder-decore-site\\wwwroot\\js\\map.js",
