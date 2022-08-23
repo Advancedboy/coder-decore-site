@@ -1,4 +1,9 @@
 ﻿@media (max-width: 767px) {
+
+	.intro__title{
+		font-size: 20px;
+	}
+
 	.content__title {
 		font-size: 25px;
 		font-weight: 700;
@@ -36,6 +41,11 @@
 
 		.menu__icon::before {
 			top: 0;
+		}
+
+		
+		.header__scroll.visible{
+    		display: none;
 		}
 
 		.menu__icon span {
@@ -160,3 +170,28 @@
 	}
 
 
+@media (max-width: 1439px) {
+	.intro__title{
+		font-size: 35px;
+	}
+}
+
+@media (max-width: 1141px){
+	.intro__title{
+		font-size: 30px;
+	}
+	
+	.intro__subtitle {
+		font-size: 25px;
+	}
+}
+
+@media (max-width: 983px){
+	.intro__title{
+		font-size: 26px;
+	}
+
+	.intro__subtitle{
+		font-size: 21px;
+	}
+}
