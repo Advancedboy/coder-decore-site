@@ -7,7 +7,7 @@
   position: relative;
   top: 0;
   text-align: center;
-  background: url('img/bg_slogan.jpg') no-repeat;
+  background: url('img/bg_slogan_repeat.png') repeat;
   font-weight: 700;
   font-size: 36px;
   padding: 20px 0;

@@ -194,4 +194,17 @@
 	.intro__subtitle{
 		font-size: 21px;
 	}
+
+	.intro__maintext {
+		max-width: 100%;
+	}
+
+	.intro__navigation-title{
+		padding: 10px 10px 0px 10px;
+		text-align: center;
+	}
+
+	.intro__navigation li{
+		padding: 10px 0;
+	}
 }

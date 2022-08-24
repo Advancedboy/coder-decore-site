@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "WXHhSGifHFSkybEHeVvCv7eY0gHayUwDytECT0mach4=",
+  "Hash": "AvNwdKoplZDU9OHW9tTt8YrOp8KPezdG/5SHpiSDO6A=",
   "Source": "CoderDecoreSite",
   "BasePath": "_content/CoderDecoreSite",
   "Mode": "Default",
@@ -440,6 +440,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\favicon.png"
+    },
+    {
+      "Identity": "D:\\IT\\coder-decore-site\\wwwroot\\images\\bg_slogan_1.png",
+      "SourceId": "CoderDecoreSite",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\IT\\coder-decore-site\\wwwroot\\",
+      "BasePath": "_content/CoderDecoreSite",
+      "RelativePath": "images/bg_slogan_1.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\bg_slogan_1.png"
     },
     {
       "Identity": "D:\\IT\\coder-decore-site\\wwwroot\\images\\blender.png",
