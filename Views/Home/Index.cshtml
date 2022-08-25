@@ -27,7 +27,7 @@
 					помощью программного кода.</h3>
 				<h2 class="intro__navigation-title">Быстрая навигация</h2>
 				<ul class="intro__navigation" type="disc">
-					<li><a href="/">О нашей школе</a></li>
+					<li><a asp-controller="Home" asp-action="About">О нашей школе</a></li>
 					<li><a href="/">Чему мы можем научить вашего ребенка</a></li>
 					<li><a href="/">Как с нами связаться</a></li>
 				</ul>
@@ -47,7 +47,7 @@
 		<h2 class="content__title">Добро пожаловать</h2>
 		<div class="content__text">
 				<div class="text-block">
-				<p>Школа программирования Coder Decore.<br> Из этого следует наш девиз "Кодируй Декорируя!". Как человек и все что его окружает создает мир вокруг себя с помощью слов, так и
+				<p>Школа программирования Coder Decore. Из этого следует наш девиз "Кодируй Декорируя!". Как человек и все что его окружает создает мир вокруг себя с помощью слов, так и
 					программист создает виртуальный мир с помощью компьютерных слов. И наша школа обучает этому
 					творчеству! </p>
 			</div>
@@ -55,69 +55,3 @@
 	</div>
 </section>
 		<div class="border"></div>
-		<section class="study__programs">
-			<h2>Наши образовательные программы</h2>
-			<div class="gamedev__intro">
-				<h2 class="gamedev__intro-title">Разработка компьютерных игр</h2>
-				<div class="gamedev__about">
-					<div class="locked gamedev__img">
-						<img src="~/images/gamedev.png" />
-					</div>
-					<div class="gamedev__about-info">
-						<h3>На занятиях дети занимаются созданием компьютерных игр</h3>
-						<p>Разработчики-новички будут работать с мощными движками для разработки игр разной сложности для всех
-							платформ</p>
-						<ul>
-							<li>Unity</li>
-							<li>Unreal Engine</li>
-						</ul>
-					</div>
-				</div>
-			</div>
-			<div class="border"></div>
-			<div class="webdev__intro">
-				<h2 class="webdev__intro-title">Веб разработка</h2>
-				<div class="webdev__about">
-					<div class="webdev__about-info">
-						<h3>Ваш ребенок научится создавать сайт от разметки до публикации в интернет.</h3>
-						<p>За время курса будет освоены такие технологии как</p>
-						<ul>
-							<li>HTML, CSS, JavaScript</li>
-							<li>JavaScript (React)</li>
-							<li>Python (Django)</li>
-						</ul>
-						<a href="/">Ознакомиться подробнее</a>
-					</div>
-					<div class="locked web__img">
-						<img src="~/images/webdev.png" />
-					</div>
-				</div>
-			</div>
-			<div class="border"></div>
-			<div class="modeling__intro">
-				<h2 class="modeling__intro-title">3D моделирование</h2>
-				<div class="modeling__about">
-					<div class="locked modeling__img">
-						<img src="~/images/blender.png" alt="">
-					</div>
-					<div class="modeling__about-info">
-						<h3>Вашего ребенка научат создавать 3д модели, развертку, текстурирование</h3>
-						<p>На занятиях используются мощные 3д пакеты, которые используют в самых крутых игровых компаниях и
-							мальких
-							сдудиях</p>
-						<ul>
-							<li>Blender</li>
-							<li>3ds Max</li>
-						</ul>
-					</div>
-				</div>
-			</div>
-			<div class="border"></div>
-			<div class="cpplearn__intro">
-				<h2 class="cpplearn__intro-title">Изучение языка C++</h2>
-				<div class="locked ccplearn__img">
-					<img src="~/images/cpplearing.png" alt="">
-				</div>
-				</div>
-</section>
-<script src="~/js/parallax.js"></script>

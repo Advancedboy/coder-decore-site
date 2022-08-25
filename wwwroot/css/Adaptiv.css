@@ -11,7 +11,7 @@
 	}
 
 	.content {
-		height: 250vh;
+		max-height: 250vh;
 	}
 
 	.menu__icon {
@@ -21,6 +21,14 @@
 		width: 30px;
 		height: 18px;
 		cursor: pointer;
+	}
+
+	.intro__container{
+		padding: 20px;
+	}
+
+	.intro__navigation{
+		flex-wrap: nowrap;
 	}
 
 		.menu__icon span,
@@ -167,7 +175,7 @@
 			font-size: 22px;
 		}
 		.content{
-			height: 100vh;
+			max-height: 100vh;
 		}
 
 

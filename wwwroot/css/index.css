@@ -53,11 +53,11 @@ body{
 
 .intro {
 	/* background-color: #9D7FC0; */
-	height: 100vh;
+	min-height: 100vh;
 	position: relative;
 	margin: 0 auto;
-	margin-bottom: 200px;
-	min-width: 100%;
+	max-width: 100%;
+
 }
 
 .intro__title {
@@ -142,14 +142,11 @@ body{
 	/* background-color: #6923DC; */
 	position: relative;
 	/* z-index: 2; */
-	height: 100vh;
+	max-height: 100vh;
 	width: 100%;
 	top: 0;
 	left: 0;
 }
-
-
-
 
 .content__container{
 }
@@ -176,7 +173,7 @@ body{
 
 .border{
 	width: 100%;
-	height: 20px;
+	height: 5px;
 	background-color: whitesmoke;
 	position: absolute;
 	margin: 30px 0;
@@ -184,7 +181,7 @@ body{
 
 .text-block {
 	font-size: 35px;
-	text-align: left;
+	text-align: center;
 	font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
 }
 
@@ -195,10 +192,10 @@ body{
 .study__programs h2 {
 	font-size: 45px;
 	font-weight: 500;
-	color: black;
+	color: whitesmoke;
 }
 
-.gamedev__intro {
+.gamedev__intro, .webdev__intro, .modeling__intro {
 	padding: 50px 0;
 }
 
@@ -208,7 +205,7 @@ a {
 }
 
 .gamedev__about {
-	color: black;
+	color: whitesmoke;
 }
 
 .webdev__about,
@@ -218,13 +215,14 @@ a {
 	justify-content: space-around;
 	padding: 40px;
 	max-width: 75%;
+	flex-wrap: wrap;
 	margin: 0 auto;
 	background-color: rgba(58, 71, 213, .1);
 	border-radius: 3px;
 	box-shadow: 1px 1px 1px 1px rgba(238, 238, 238, .5);
 }
 .webdev__about {
-	color: black;
+	color: whitesmoke;
 }
 .modeling__about-info,
 .webdev__about-info,
@@ -238,7 +236,7 @@ a {
 }
 
 .webdev__about-info {
-	text-align: left;
+    text-align: center;
 }
 
 .modeling__about-info ul,
@@ -254,13 +252,13 @@ li {
 }
 
 .webdev__intro {
-	padding: 0 30px;
+	/* padding: 0 30px; */
 }
 
 .modeling__intro,
 .modeling__intro h2 {
 	/* background: rgb(129, 16, 119); */
-	color: white;
+	color: whitesmoke;
 }
 
 .cpplearn__intro{
@@ -268,12 +266,12 @@ li {
 }
 
 .webdev__intro {
-	color: rgb(1, 2, 3);
+	color: whitesmoke;
 }
 #map {
 	width: 100%;
 	/* margin: -30px; */
-	height: 65%;
+	max-height: 65%;
 	text-align: center;
 }
 

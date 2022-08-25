@@ -2,40 +2,84 @@
 	ViewData["Title"] = "Образовательные программы";
 }
 
+
+<meta name="viewport" content="width=device-width, initial-scale=1 charset=utf-8">
 <link rel="stylesheet" href="~/css/index.css">
 <link rel="stylesheet" href="~/css/Adaptiv.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@1,500&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Jura:wght@300&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Arimo:wght@500&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Display:wght@200&display=swap" rel="stylesheet">
 
-
-<section class="content">
-	<div class="content__container _container">
-		<h2 class="content__title">Чему вы можете научиться у нас в школе?</h2>
-		<div class="content__text">
-			<div class="text-block">
-				<h2>Мы предоставляем свои образовательые услуги по следующим направлениям:</h2>
-				<ul class="programs-list">
-					<li>
-						<h2>3D Моделирование</h2>
-						<p>Используются 2 программы, которые являются стандартом индустрии. Blender и 3Ds Max</p>
-					</li>
-					<li>
-						<h2>Game development</h2>
-						<p>Обучение разработке игр мечты происходит с использованием игровых движков, таких как Unity,
-							Unreal Engine, Godot Engine.</p>
-					</li>
-					<li>
-						<h2>WEB-разработка</h2>
-						<p>Здесь мы охватим полный цикл разработки сайта, от идеи и разметки до написания бизнес-логики.
-						</p>
-					</li>
-					<li>
-						<h2>Программирование на C++</h2>
-						<p>Разработка приложений на одном из самых мощных языков программирования, с помощью которого
-							можно написать что угодно.</p>
-					</li>
-				</ul>
+		<section class="study__programs">
+			<h2>Наши образовательные программы</h2>
+			<div class="gamedev__intro">
+				<h2 class="gamedev__intro-title">Разработка компьютерных игр</h2>
+				<div class="gamedev__about">
+					<div class="locked gamedev__img">
+						<img src="~/images/gamedev.png" />
+					</div>
+					<div class="gamedev__about-info">
+						<h3>На занятиях дети занимаются созданием компьютерных игр</h3>
+						<p>Разработчики-новички будут работать с мощными движками для разработки игр разной сложности для всех
+							платформ</p>
+						<ul>
+							<li>Unity</li>
+							<li>Unreal Engine</li>
+						</ul>
+					</div>
+				</div>
 			</div>
-		</div>
-	</div>
+			<div class="webdev__intro">
+				<h2 class="webdev__intro-title">Веб разработка</h2>
+				<div class="webdev__about">
+					<div class="webdev__about-info">
+						<h3>Ваш ребенок научится создавать сайт от разметки до публикации в интернет.</h3>
+						<p>За время курса будет освоены такие технологии как</p>
+						<ul>
+							<li>HTML, CSS, JavaScript</li>
+							<li>JavaScript (React)</li>
+							<li>Python (Django)</li>
+						</ul>
+						<a href="/">Ознакомиться подробнее</a>
+					</div>
+					<div class="locked web__img">
+						<img src="~/images/webdev.png" />
+					</div>
+				</div>
+			</div>
+			<div class="modeling__intro">
+				<h2 class="modeling__intro-title">3D моделирование</h2>
+				<div class="modeling__about">
+					<div class="locked modeling__img">
+						<img src="~/images/blender.png" alt="">
+					</div>
+					<div class="modeling__about-info">
+						<h3>Вашего ребенка научат создавать 3д модели, развертку, текстурирование</h3>
+						<p>На занятиях используются мощные 3д пакеты, которые используют в самых крутых игровых компаниях и
+							мальких
+							сдудиях</p>
+						<ul>
+							<li>Blender</li>
+							<li>3ds Max</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+			<div class="cpplearn__intro">
+				<h2 class="cpplearn__intro-title">Изучение языка C++</h2>
+				<div class="locked ccplearn__img">
+					<img src="~/images/cpplearing.png" alt="">
+				</div>
+				</div>
 </section>
 <script src="~/js/parallax.js"></script>
 <script src="~/js/map.js"></script>
