@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "AvNwdKoplZDU9OHW9tTt8YrOp8KPezdG/5SHpiSDO6A=",
+  "Hash": "aG2Zmr957LQwbMkx+iBdWaWqcNe68WjbFTUUpqE215c=",
   "Source": "CoderDecoreSite",
   "BasePath": "_content/CoderDecoreSite",
   "Mode": "Default",
@@ -202,6 +202,40 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\img\\bg_slogan.png"
+    },
+    {
+      "Identity": "D:\\IT\\coder-decore-site\\wwwroot\\css\\img\\bg_slogan_1.png",
+      "SourceId": "CoderDecoreSite",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\IT\\coder-decore-site\\wwwroot\\",
+      "BasePath": "_content/CoderDecoreSite",
+      "RelativePath": "css/img/bg_slogan_1.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\img\\bg_slogan_1.png"
+    },
+    {
+      "Identity": "D:\\IT\\coder-decore-site\\wwwroot\\css\\img\\bg_slogan_repeat.png",
+      "SourceId": "CoderDecoreSite",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\IT\\coder-decore-site\\wwwroot\\",
+      "BasePath": "_content/CoderDecoreSite",
+      "RelativePath": "css/img/bg_slogan_repeat.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\img\\bg_slogan_repeat.png"
     },
     {
       "Identity": "D:\\IT\\coder-decore-site\\wwwroot\\css\\img\\DevelopParallax\\1.1.png",

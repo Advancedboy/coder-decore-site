@@ -110,6 +110,7 @@ body{
 	font-size: 25px;
 	font-family: 'Montserrat', sans-serif;
 	font-weight: 500;
+	text-align: center;
 }
 
 .intro__navigation {
@@ -125,6 +126,11 @@ body{
 .intro__navigation:hover a:current {
 	background-color: black;
 }
+
+.intro__navigation li{
+	margin: 10px;
+}
+
 ._container{
 	max-width: 1000px;
 	margin: 0 auto;
@@ -210,11 +216,12 @@ a {
 .gamedev__about {
 	display: flex;
 	justify-content: space-around;
-	padding: 30px 0;
-		margin: 0 30px;
-		background-color: #3a47d5;
-		border-radius: 3px;
-		box-shadow: 1px 1px 1px 1px palevioletred;
+	padding: 40px;
+	max-width: 75%;
+	margin: 0 auto;
+	background-color: rgba(58, 71, 213, .1);
+	border-radius: 3px;
+	box-shadow: 1px 1px 1px 1px rgba(238, 238, 238, .5);
 }
 .webdev__about {
 	color: black;
@@ -224,6 +231,7 @@ a {
 .gamedev__about-info {
 	font-size: 30px;
 	margin: 0 auto;
+	max-width: 70%;
 }
 
 .modeling__about-info {
