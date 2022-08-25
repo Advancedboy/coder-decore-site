@@ -210,7 +210,8 @@ a {
 
 .webdev__about,
 .modeling__about,
-.gamedev__about {
+.gamedev__about,
+.cpplearn__about {
 	display: flex;
 	justify-content: space-around;
 	padding: 40px;
@@ -226,17 +227,19 @@ a {
 }
 .modeling__about-info,
 .webdev__about-info,
-.gamedev__about-info {
+.gamedev__about-info,
+.cpplearn__about-info {
 	font-size: 30px;
 	margin: 0 auto;
 	max-width: 70%;
+	text-align: center;
 }
 
 .modeling__about-info {
 }
 
 .webdev__about-info {
-    text-align: center;
+
 }
 
 .modeling__about-info ul,
@@ -268,6 +271,11 @@ li {
 .webdev__intro {
 	color: whitesmoke;
 }
+
+.cpplearn__intro{
+	color: whitesmoke;
+}
+
 #map {
 	width: 100%;
 	/* margin: -30px; */
